@@ -19,22 +19,34 @@ class SecondViewController: UIViewController {
     
     var isTextValid: Bool = false
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setupTextField()
-        confirmButton.setTitle("<-", for: .normal)
+        setupViews()
     }
 }
 
 //MARK: - Setup Views
 extension SecondViewController {
     
+    private func setupViews() {
+        setupTextField()
+        setupConfirmButton()
+    }
+    
     private func setupTextField() {
         textField.delegate = self
         textField.textAlignment = .center
         textField.textColor = .black
     }
+    
+    private func setupConfirmButton() {
+            confirmButton.setTitle("<-", for: .normal)
+            confirmButton.layer.borderWidth = 1
+            confirmButton.layer.borderColor = UIColor.link.cgColor
+        }
 }
 
 //MARK: - Setup Actions

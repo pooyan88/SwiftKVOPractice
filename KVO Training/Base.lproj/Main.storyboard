@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="keR-0F-rJS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="keR-0F-rJS">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -73,7 +73,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utD-aP-YZB">
-                                <rect key="frame" x="16" y="788" width="361" height="40"/>
+                                <rect key="frame" x="16" y="792" width="361" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="DVr-Yb-5et"/>
                                 </constraints>
@@ -88,12 +88,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="fWL-1D-tUL" firstAttribute="trailing" secondItem="VPN-yX-yGT" secondAttribute="trailing" constant="16" id="9Df-KT-gr5"/>
-                            <constraint firstItem="utD-aP-YZB" firstAttribute="bottom" secondItem="fWL-1D-tUL" secondAttribute="bottom" constant="10" id="Bz1-K5-2GV"/>
                             <constraint firstItem="utD-aP-YZB" firstAttribute="leading" secondItem="fWL-1D-tUL" secondAttribute="leading" constant="16" id="Gbb-Ag-4j1"/>
                             <constraint firstItem="fWL-1D-tUL" firstAttribute="trailing" secondItem="utD-aP-YZB" secondAttribute="trailing" constant="16" id="ZJp-Ue-gfS"/>
                             <constraint firstItem="VPN-yX-yGT" firstAttribute="centerY" secondItem="SdY-tQ-61Z" secondAttribute="centerY" id="cWt-J0-NNW"/>
                             <constraint firstItem="VPN-yX-yGT" firstAttribute="leading" secondItem="fWL-1D-tUL" secondAttribute="leading" constant="16" id="i2y-Z2-Nws"/>
                             <constraint firstItem="VPN-yX-yGT" firstAttribute="centerX" secondItem="SdY-tQ-61Z" secondAttribute="centerX" id="qoI-2w-ADB"/>
+                            <constraint firstAttribute="bottom" secondItem="utD-aP-YZB" secondAttribute="bottom" constant="20" id="wCR-cB-JCA"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2AP-NK-ND5"/>
